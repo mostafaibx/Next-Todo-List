@@ -8,10 +8,8 @@ A Demo TodoList application built with Next.js, MongoDB, and using Next.js API r
 
 - [Features](#features)
 - [Prerequisites](#prerequisites)
-- [Usage](#usage)
 - [API Routes](#api-routes)
 - [Dependencies](#dependencies)
-- [License](#license)
 
 ## Features
 
@@ -38,7 +36,7 @@ The application uses Next.js API routes for real-time updates
 - [react-spinners](https://www.npmjs.com/package/react-spinners)
 
 
-# For Live Previewe: 
+### For Live Previewe: 
 
 
 
