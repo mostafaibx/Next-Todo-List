@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+}
+.card form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card label {
+  margin: 1rem 0rem 0.5rem;
+}
+
+.card input {
+  width: 25rem;
+  padding: 0.5rem 0.5rem;
+  font-size: x-large;
+  border: none;
+  border-radius: 5px;
+}
+
+.card button {
+  width: 15rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: large;
+  font-weight: 600;
+}
+.card button:hover {
+  background-color: rgb(95, 95, 95);
+  color: white;
+}
+
+.error {
+  font-size: x-large;
+  font-weight: 800;
+  color: rgb(230, 0, 0);
+}

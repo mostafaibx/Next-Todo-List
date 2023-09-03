@@ -1,0 +1,85 @@
+.createForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.createForm form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+}
+.createForm label {
+  margin: 1rem 0rem 1rem 0rem;
+}
+
+.name {
+  width: 25rem;
+  padding: 0.5rem 0.5rem;
+  font-size: x-large;
+}
+
+.createForm button {
+  width: 15rem;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: large;
+  font-weight: 600;
+}
+
+.color-list {
+  width: 15rem;
+}
+.color-list ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+}
+.color-list h5 {
+  font-size: 22px;
+  margin-bottom: 0px;
+}
+.color-list li {
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.color-list li:hover {
+  padding: 0.25rem;
+  border: 3px solid white;
+}
+
+.selected {
+  padding: 0.25rem;
+  border: 3px solid white;
+}
+
+.red {
+  background-color: rgb(191, 9, 9);
+}
+.green {
+  background-color: rgb(124, 191, 9);
+}
+.yellow {
+  background-color: rgb(187, 197, 6);
+}
+.purple {
+  background-color: rgb(191, 9, 79);
+}
+.blue {
+  background-color: rgb(9, 88, 191);
+}
+
+.error {
+  font-size: x-large;
+  font-weight: 800;
+  color: rgb(230, 0, 0);
+}

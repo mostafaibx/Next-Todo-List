@@ -1,0 +1,46 @@
+.card {
+  background-color: rgba(244, 139, 221, 0.659);
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 100%;
+  margin: 3rem;
+  padding: 2rem;
+  position: relative;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.228);
+}
+
+.empty {
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+.add {
+  padding: 0.25rem 0.75rem;
+  font-size: x-large;
+  font-weight: 800;
+  border: none;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  bottom: 5rem;
+  right: 5rem;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.add:hover {
+  font-size: xx-large;
+  width: 3.5rem;
+  height: 3.5rem;
+}

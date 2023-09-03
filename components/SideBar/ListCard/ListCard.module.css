@@ -1,0 +1,57 @@
+.ListCard {
+  padding: 0.25rem;
+  margin: 0.75rem 2rem;
+  background-color: rgb(42, 42, 42);
+  border-radius: 25px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+}
+.ListCard:hover {
+  margin: 0.75rem 1rem;
+  background-color: rgb(85, 85, 85);
+}
+.ListCard .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.5rem;
+}
+
+.ListCard ul {
+  font-size: larger;
+  font-weight: 500;
+}
+.show {
+  font-size: larger;
+  font-weight: 700;
+  background-color: transparent;
+  border: none;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+}
+
+.actions button {
+  font-size: large;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: rgb(167, 37, 37);
+}
+.delete:hover {
+  background-color: rgb(111, 4, 4);
+  color: white;
+}
+
+.edit:hover {
+  background-color: rgb(62, 62, 62);
+  color: white;
+}

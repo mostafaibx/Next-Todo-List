@@ -1,0 +1,34 @@
+.SideBar {
+  width: 30%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  overflow: scroll;
+}
+.SideBar::-webkit-scrollbar {
+  display: none;
+}
+
+.head {
+  box-sizing: border-box;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.5rem;
+}
+.SideBar .head button {
+  padding: 0.25rem 0.75rem;
+  font-size: x-large;
+  font-weight: 800;
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  box-shadow: 3px 3px 6px rgba(108, 107, 107, 0.2);
+}
+.SideBar .head button:hover {
+  font-size: xx-large;
+  width: 3.5rem;
+  height: 3.5rem;
+}
