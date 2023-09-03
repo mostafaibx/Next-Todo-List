@@ -27,7 +27,7 @@ function CreateForm(props) {
 
   return (
     <div className={classes.createForm}>
-      <p className={error}>{listCtx.error}</p>
+      <p className={classes.error}>{listCtx.error}</p>
       <form onSubmit={createListHandler}>
         <label>Enter your list name</label>
         <input type="text" className={classes.name} name="title" required />
