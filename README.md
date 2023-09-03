@@ -36,7 +36,7 @@ The application uses Next.js API routes for real-time updates
 - [react-spinners](https://www.npmjs.com/package/react-spinners)
 
 
-### For Live Previewe: 
+### For Live Previewe: https://next-todo-list-chi.vercel.app/
 
 
 
