@@ -9,9 +9,8 @@ function ListContent() {
   const listCtx = useContext(ListsContext);
 
   const [items, setItems] = useState(listCtx.selectedList?.items || []);
-  const [showDetails, setShowDetails] = useState(initialShowDetails);
-
   const initialShowDetails = items?.map(() => false) || [];
+  const [showDetails, setShowDetails] = useState(initialShowDetails);
 
   function showDetailsHandler(i) {
     const updatedShowDetails = [...showDetails];
